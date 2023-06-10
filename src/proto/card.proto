@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+package imperialbower.pk.deck;
+
+enum Suit {
+  SUIT_BLANK = 0;
+  SUIT_CLUB = 1;
+  SUIT_DIAMOND = 2;
+  SUIT_HEART = 3;
+  SUIT_SPADE = 4;
+}
+
+enum Rank {
+  RANK_BLANK = 0;
+  RANK_ACE = 1;
+  RANK_DEUCE = 2;
+  RANK_TREY = 3;
+  RANK_FOUR = 4;
+  RANK_FIVE = 5;
+  RANK_SIX = 6;
+  RANK_SEVEN = 7;
+  RANK_EIGHT = 8;
+  RANK_NINE = 9;
+  RANK_TEN = 10;
+  RANK_JACK = 11;
+  RANK_QUEEN = 12;
+  RANK_KING = 13;
+}
+
